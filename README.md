@@ -1,4 +1,6 @@
-# CalendarDatePicker2
+**Notice**: This package is based on the original [CalendarDatePicker2](https://github.com/theideasaler/calendar_date_picker2) package. It has been renamed and enhanced to serve as an availability calendar booking picker.
+
+# BookingCalendarPicker (ex. CalendarDatePicker2)
 
 [![Pub Package](https://img.shields.io/badge/pub-v1.1.5-blue)](https://pub.dev/packages/calendar_date_picker2)
 [![Pub Package](https://img.shields.io/badge/flutter-%3E%3D1.17.0-green)](https://flutter.dev/)
