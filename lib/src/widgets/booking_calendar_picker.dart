@@ -160,14 +160,15 @@ class _BookingCalendarPickerState extends State<BookingCalendarPicker> {
 
   void _vibrate() {
     switch (Theme.of(context).platform) {
-      case TargetPlatform.android:
       case TargetPlatform.iOS:
+      case TargetPlatform.macOS:
+        HapticFeedback.selectionClick();
+        break;
+      case TargetPlatform.android:
       case TargetPlatform.fuchsia:
       case TargetPlatform.linux:
       case TargetPlatform.windows:
         HapticFeedback.vibrate();
-        break;
-      case TargetPlatform.macOS:
         break;
     }
   }

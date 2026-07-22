@@ -1,3 +1,6 @@
+## [2.0.1]
+- fix: use light selection haptic on iOS instead of hard vibration when selecting dates
+
 ## [2.0.0]
 - BREAKING CHANGE
 - Migrate CalendarDatePicker2 to BookingCalendarPicker
